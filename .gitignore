@@ -180,3 +180,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 models/*.keras
+# PneumoVision dataset
+data/raw/
