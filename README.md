@@ -59,7 +59,31 @@ PneumoVision/
 
 Test Accuracy:
 
-73.24%
+## Model Performance
+
+### Test Accuracy
+
+**87.66%**
+
+### Confusion Matrix
+
+The model was evaluated on 624 test X-ray images.
+
+| | Predicted Normal | Predicted Pneumonia |
+|---|---:|---:|
+| **Actual Normal** | 174 | 60 |
+| **Actual Pneumonia** | 17 | 373 |
+
+The model correctly classified **547 of 624 images**, resulting in an overall accuracy of **87.66%**.
+
+### Key Observations
+
+- Correctly classified **174 of 234 Normal cases**
+- Correctly classified **373 of 390 Pneumonia cases**
+- **60 Normal images** were incorrectly classified as Pneumonia
+- **17 Pneumonia images** were incorrectly classified as Normal
+- The model shows substantially improved performance compared with the initial CNN evaluation.
+- Improving Normal-class recall remains an important area for further development.
 
 ---
 
